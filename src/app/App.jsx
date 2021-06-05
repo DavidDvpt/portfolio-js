@@ -1,12 +1,14 @@
-import React from "react";
-import Counter from "../componants/counter/Counter";
-import "./App.css";
+import React from 'react';
+import Header from '../layout/Header';
+import Navigation from '../layout/Navigation';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter />
+        <Header />
+        <Navigation />
       </header>
     </div>
   );
